@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+.contenedor1 {
+    background-color: rgb(255, 255, 255);
+    width: 833px;
+    height: 942px;
+}
+
+.contenedor2 {
+    background-color: rgb(214, 189, 166);
+    width: 517px;
+    height: 942px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 72px;
+}
+
+.logo {
+    right: 44px;
+    font-family: 'Yeseva One', cursive;
+    position: relative;
+    top: 49px;
+    font-size: 20px;
+
+}
+
+.nav {
+    position: relative;
+
+    width: 329px;
+    display: flex;
+    justify-content: space-between;
+    top: 59px;
+    right: 74px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: black;
+}
+
+
+
+
+.iconos {
+    top: 53px;
+    display: flex;
+    position: relative;
+
+    left: 218px;
+    width: 61px;
+    justify-content: space-between;
+}
+
+.iconos button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.iconos img {
+    width: 25px;
+}
+
+.linea-separadora {
+    position: relative;
+    background-color: gray;
+    width: 2px;
+    height: 23px;
+    top: 29px;
+    left: 304px;
+
+}
+
+
+.Sign {
+    display: flex;
+    height: 26px;
+    position: relative;
+
+    top: 1px;
+    width: 109px;
+    justify-content: space-between;
+    left: 332px;
+}
+
+.Sign button {
+    background: transparent;
+    border: none;
+    width: 65px;
+}
+
+.Sign button:hover {
+    border: 1px solid black;
+
+}
+
+.Sign a {
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.imagen {
+    position: absolute;
+    right: 218px;
+    width: 669px;
+
+    top: 98px;
+    height: 843px;
+    overflow: hidden;
+
+}
+
+.imagen img {
+    object-fit: cover;
+    object-position: center;
+    width: 880px;
+}
+
+
+.titulo {
+    width: 646px;
+    position: relative;
+    top: 234px;
+
+    left: 52px;
+}
+
+.titulo p {
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+
+}
+
+.shop {
+    width: 80px;
+    position: relative;
+    top: 283px;
+    left: 53px;
+}
+
+.shop button {
+    background: transparent;
+    background: transparent;
+    width: 144px;
+    padding: 5px 7px 7px 5px;
+}
+
+.shop a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.comentario {
+    height: 95px;
+
+    width: 324px;
+    position: relative;
+    top: 518px;
+    left: 57px;
+}
+
+.comentario p {
+    font-family: 'Instrument Serif', serif;
+}
+
+
+.escala {
+    position: relative;
+    left: 455px;
+    top: 324px;
+    display: flex;
+
+
+    width: 18px;
+    height: 135px;
+}
+
+.numeros {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 10px;
+    height: 135px;
+    width: 11px;
+    justify-content: space-around;
+
+}
+
+
+.paleta {
+
+    display: flex;
+    flex-direction: column;
+    width: 1px;
+    height: 135px;
+}
+
+.negro {
+    background-color: #000;
+    width: 2px;
+    height: 80px;
+}
+
+.gris {
+    background-color: gray;
+    width: 2px;
+    height: 80px;
+}
+
+.blanco {
+    background-color: rgba(128, 128, 128, 0.534);
+    width: 2px;
+    height: 80px;
+}
